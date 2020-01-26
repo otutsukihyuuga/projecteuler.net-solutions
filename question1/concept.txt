@@ -1,0 +1,13 @@
+This question can be done even without code.
+Sum of all multiples of 3 or 5 from 1 to 1000 is sum of two arithmetic progression
+1) 3,6,9,...999
+2) 5,10,15,...995
+but here numbers like 15,30... are repeating which again are A.P. of 15 multiples.
+so sum of all multiples will be 
+S3 + S5 - S15
+But we are practicing coding so to do it with code
+we will have to find all numbers from 1 to 1000 which are divisible from 3 or 5
+Algorithm:
+1) iterate from i=1 to less than 1000
+2) if i%3=0 OR i%5=0 then sum=sum+i
+3) print sum
